@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Lang - HOMEPAGE</title>
+</head>
+
+<body>
+
+   <!-- nav section start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CAT LIST</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mylist
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/contact/">Contact</a></li>
+              <li><a class="dropdown-item" href="/gallery/">Gallery</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/sosmed/">Sosmed</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+ </nav>
+   <!-- nav section end -->
+
+
+   <!-- first layout start -->
+  <div class="container-fluid bg-dark text-light" style="height: 175vh">
+
+    <!-- carousel images -->
+    <div id="carouselExampleCaptions" class="carousel slide pointer-event" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="assets/5dbfff829ebe6.jpg" class="d-block w-100" alt="aesthetic image" style="height: 400px">
+          <div class="carousel-caption">
+            <h5>Jamal</h5>
+            <p>Kucing lucu tapi nakal.</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="assets/615cfcc22fb85.jpg" class="d-block w-100" alt="aesthetic image 2" style="height: 400px">
+          <div class="carousel-caption">
+            <h5>Asep</h5>
+            <p>Kucing yg suka nyolong.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/Screen-Shot-2021-04-21-at-17.05.43.png" class="d-block w-100" alt="aesthetic image 3" style="height: 400px">
+          <div class="carousel-caption">
+            <h5>Samsudin</h5>
+            <p>Kucing yang suka bohong.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel images -->
+
+    <div class="row text-center align-items-center mt-3">
+      <div class="col-12">
+        <img src="assets/anime-png-4.png" width="75" height="75">
+         <h2 class="mt-2">Welcome to my familly cat</h2>
+         <i>keluarga yang sangat <span style="color:aqua">tydack</span> ramah</i>
+      </div>
+    </div>
+    <div class="row text-dark mt-2">
+      <div class="col-sm-4 g-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">KUCING ASEP</h5>
+            <p class="card-text">Gemuk agak tolol suka kencing sembarangan.</p>
+            <a href="#" class="btn btn-dark d-block">Cek kucing asep</a>
+          </div>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+            💲5
+            </span>
+        </div>
+      </div>
+      <div class="col-sm-4 g-3">
+       <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">KUCING JAMAL</h5>
+            <p class="card-text">Kurus kerjaannya tidur mulu.</p>
+            <a href="#" class="btn btn-dark d-block">Cek kucing jamal</a>
+          </div>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+            💲7
+            </span>
+        </div>
+      </div>
+      <div class="col-sm-4 g-3">
+        <div class="card">
+           <div class="card-body">
+             <h5 class="card-title text-center">KUCING SAMSUDIN</h5>
+             <p class="card-text">Kurus item tapi kata emaknya dia gateng.</p><p></p>
+             <a href="#" class="btn btn-dark d-block">Cek kucing samsudin</a>
+           </div>
+           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+            💲8
+            </span>
+         </div>
+       </div>
+    </div>
+  </div>
+   <!-- first layout end -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
